@@ -35,9 +35,9 @@ public class Pawn : Piece
                     moves.Add(new Vector2(startPosition.X, startPosition.Y - 2));
                 if (nextCase != null && nextCase.Piece == null)
                     moves.Add(nextCase.Position);
-                if (upperRight != null && upperRight.Piece != null)
+                if (upperRight != null && upperRight.Piece != null && upperRight.Piece is not King)
                     moves.Add(upperRight.Position);
-                if (upperLeft != null && upperLeft.Piece != null)
+                if (upperLeft != null && upperLeft.Piece != null && upperLeft.Piece is not King)
                     moves.Add(upperLeft.Position);
                 break;
 
@@ -51,9 +51,9 @@ public class Pawn : Piece
                     moves.Add(new Vector2(startPosition.X, startPosition.Y + 2));
                 if (nextCase != null && nextCase.Piece == null)
                     moves.Add(nextCase.Position);
-                if (upperRight != null && upperRight.Piece != null)
+                if (upperRight != null && upperRight.Piece != null && upperRight.Piece is not King)
                     moves.Add(upperRight.Position);
-                if (upperLeft != null && upperLeft.Piece != null)
+                if (upperLeft != null && upperLeft.Piece != null && upperLeft.Piece is not King)
                     moves.Add(upperLeft.Position);
                 break;
         }

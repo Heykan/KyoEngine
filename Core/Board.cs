@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Globalization;
+using System.Linq;
 using System.Reflection;
 using System.Threading.Tasks;
 using Kyo.Core.Pieces;
@@ -19,6 +20,8 @@ public class Board
     public const int WIDTH = 8;
     public const int HEIGHT = 8;
 
+    private bool _init;
+
     private static bool _blackTurn;
     private static Case[,] _cases;
     private int _currentTheme = 0;
@@ -30,12 +33,14 @@ public class Board
     private Texture2D[] _blackCases;
     private Texture2D[] _whitePiecesTextures;
     private Texture2D[] _blackPiecesTextures;
-    private Piece[] _whitePieces;
-    private Piece[] _blackPieces;
+    private static Piece[] _whitePieces;
+    private static Piece[] _blackPieces;
     private SpriteFont _debugFont;
 
     public static Case[,] Cases => _cases;
     public static bool BlackTurn => _blackTurn;
+    public static Piece[] BlackPieces => _blackPieces;
+    public static Piece[] WhitePieces => _whitePieces;
 
     public Board() 
     {
@@ -88,6 +93,7 @@ public class Board
 
     public void InitBoard()
     {
+        _init = false;
         // Création des cases de l'échiquier
         for (int i = 0; i < HEIGHT; i++)
         {
@@ -137,10 +143,13 @@ public class Board
             _cases[(int)w.Position.X, (int)w.Position.Y].Piece = w;
             _cases[(int)b.Position.X, (int)b.Position.Y].Piece = b;
         }
+        _init = true;
     }
 
     public void Update(GameTime gameTime)
     {
+        if (!_init) return;
+
         // Scale pour les calculs
         float scaleX = (float)ScreenManager.Width / (WIDTH * Case.WIDTH);
         float scaleY = (float)ScreenManager.Height / (HEIGHT * Case.HEIGHT);
@@ -151,11 +160,25 @@ public class Board
         int y = Math.Clamp((int)Math.Floor(mouse.Y / (Case.WIDTH * scaleY)), 0, 7);
         Vector2 currentCasePos = new Vector2(x, y);
         _currentCase = _cases[(int)currentCasePos.X, (int)currentCasePos.Y];
-        _currentCaseText = $"{_currentCase} :: {WhiteKingIsCheck()} :: {BlackKingIsCheck()}";
+        _currentCaseText = $"{_currentCase}";
+
+        // Suppression des pièces manger
+        for (int i = WhitePieces.Length - 1; i >= 0; i--)
+        {
+            var wp = _whitePieces[i];
+            var bp = _blackPieces[i];
+
+            if (wp != null && wp.IsDestroyed)
+                _whitePieces[i] = null;
+            if (bp != null && bp.IsDestroyed)
+                _blackPieces[i] = null;
+        }
     }
 
     public void Draw(GameTime gameTime, SpriteBatch spriteBatch)
     {
+        if (!_init) return;
+
         // Récupération du scale pour adapter les sprites à l'écran
         float scaleX = (float)ScreenManager.Width / (WIDTH * Case.WIDTH);
         float scaleY = (float)ScreenManager.Height / (HEIGHT * Case.HEIGHT);
@@ -218,6 +241,10 @@ public class Board
         if (!_selectedCase.Selected) return;
 
         var moves = _selectedCase.Piece.GetLegalMoves(_selectedCase.Position);
+        var king = _blackTurn ? BlackPieces.First(f => f is King) : WhitePieces.First(f => f is King);
+
+        if (king.IsKingInCheck())
+            moves = _selectedCase.Piece.GetMovesToDefendKing(king.Position, moves);
 
         foreach(var move in moves)
         {
@@ -238,16 +265,19 @@ public class Board
 
     private void DrawPieces(SpriteBatch spriteBatch, float scaleX, float scaleY, Piece[] pieces)
     {
-        foreach (var piece in pieces)
+        for (int i = pieces.Length - 1; i >= 0; i--)
         {
+            var piece  = pieces[i];
+            if (piece == null) continue;
+
             Texture2D pieceTexture = piece.Color == PieceColor.Black ? _blackPiecesTextures[piece.Id] : _whitePiecesTextures[piece.Id];
             
             // Check de si le roi est check ou pas
             Color checkColor = Color.White;
-            if (piece is King && piece.Color == PieceColor.White && WhiteKingIsCheck())
-                checkColor = Color.HotPink;
-            if (piece is King && piece.Color == PieceColor.Black && BlackKingIsCheck())
-                checkColor = Color.HotPink;
+            if (piece is King && piece.Color == PieceColor.White && piece.IsKingInCheck())
+                checkColor = Color.DarkRed;
+            if (piece is King && piece.Color == PieceColor.Black && piece.IsKingInCheck())
+                checkColor = Color.DarkRed;
 
             // Centre de la case
             float centerX = piece.Position.X * Case.WIDTH * scaleX + Case.WIDTH * scaleX / 2;
@@ -327,9 +357,6 @@ public class Board
                 return;
             }
 
-            if (WhiteKingIsCheck() && !_blackTurn && _selectedCase.Piece is not King)
-                Debug.WriteLine("checked");
-
             _currentCase.Selected = true;
         }
     }
@@ -339,41 +366,5 @@ public class Board
         var mouse = Mouse.GetState();
         return mouse.X >= 0 && mouse.X <= ScreenManager.Width
             && mouse.Y >= 0 && mouse.Y <= ScreenManager.Height;
-    }
-
-    public bool BlackKingIsCheck()
-    {
-        foreach(var piece in _whitePieces)
-        {
-            var moves = piece.GetLegalMoves(piece.Position);
-            foreach(var move in moves)
-            {
-                var newCase = _cases.Find(f => f.Position == move);
-                if (newCase.Piece == null)
-                    continue;
-                
-                if (newCase.Piece is King && newCase.Piece.Color == PieceColor.Black)
-                    return true;
-            }
-        }
-        return false;
-    }
-
-    public bool WhiteKingIsCheck()
-    {
-        foreach(var piece in _blackPieces)
-        {
-            var moves = piece.GetLegalMoves(piece.Position);
-            foreach(var move in moves)
-            {
-                var newCase = _cases.Find(f => f.Position == move);
-                if (newCase.Piece == null)
-                    continue;
-                
-                if (newCase.Piece is King && newCase.Piece.Color == PieceColor.White)
-                    return true;
-            }
-        }
-        return false;
     }
 }

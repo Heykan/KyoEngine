@@ -57,3 +57,4 @@
 /home/yoshino/Documents/Kyo/bin/Debug/net6.0/Content/Images/128/w_rook_png_shadow_128px.xnb
 /home/yoshino/Documents/Kyo/bin/Debug/net6.0/Content/Fonts/Debug28.xnb
 /home/yoshino/Documents/Kyo/bin/Debug/net6.0/Content/Fonts/m6x11.ttf
+/home/yoshino/Documents/Kyo/obj/Debug/net6.0/Kyo.sourcelink.json
