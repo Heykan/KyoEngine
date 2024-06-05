@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/yoshino/Documents/Kyo/Kyo.csproj": {}
+    "/home/yoshino/Téléchargements/config/Kyo.csproj": {}
   },
   "projects": {
-    "/home/yoshino/Documents/Kyo/Kyo.csproj": {
+    "/home/yoshino/Téléchargements/config/Kyo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/yoshino/Documents/Kyo/Kyo.csproj",
+        "projectUniqueName": "/home/yoshino/Téléchargements/config/Kyo.csproj",
         "projectName": "Kyo",
-        "projectPath": "/home/yoshino/Documents/Kyo/Kyo.csproj",
+        "projectPath": "/home/yoshino/Téléchargements/config/Kyo.csproj",
         "packagesPath": "/home/yoshino/.nuget/packages/",
-        "outputPath": "/home/yoshino/Documents/Kyo/obj/",
+        "outputPath": "/home/yoshino/Téléchargements/config/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/yoshino/.nuget/NuGet/NuGet.Config"
@@ -61,15 +61,15 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.26, 6.0.26]"
+              "version": "[6.0.30, 6.0.30]"
             },
             {
               "name": "Microsoft.NETCore.App.Host.linux-x64",
-              "version": "[6.0.26, 6.0.26]"
+              "version": "[6.0.30, 6.0.30]"
             },
             {
               "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.26, 6.0.26]"
+              "version": "[6.0.30, 6.0.30]"
             }
           ],
           "frameworkReferences": {
@@ -77,7 +77,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.101/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.105/RuntimeIdentifierGraph.json"
         }
       }
     }

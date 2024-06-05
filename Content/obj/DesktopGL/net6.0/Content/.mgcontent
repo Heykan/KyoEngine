@@ -4,39 +4,40 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>/home/yoshino/Documents/Kyo/Content/Fonts/Debug28.spritefont</File>
-    <File>/home/yoshino/Documents/Kyo/Content/Images/128/b_bishop_png_shadow_128px.png</File>
-    <File>/home/yoshino/Documents/Kyo/Content/Images/128/b_king_png_shadow_128px.png</File>
-    <File>/home/yoshino/Documents/Kyo/Content/Images/128/b_knight_png_shadow_128px.png</File>
-    <File>/home/yoshino/Documents/Kyo/Content/Images/128/b_pawn_png_shadow_128px.png</File>
-    <File>/home/yoshino/Documents/Kyo/Content/Images/128/b_queen_png_shadow_128px.png</File>
-    <File>/home/yoshino/Documents/Kyo/Content/Images/128/b_rook_png_shadow_128px.png</File>
-    <File>/home/yoshino/Documents/Kyo/Content/Images/128/square brown dark_png_shadow_128px.png</File>
-    <File>/home/yoshino/Documents/Kyo/Content/Images/128/square brown light_png_shadow_128px.png</File>
-    <File>/home/yoshino/Documents/Kyo/Content/Images/128/square gray dark _png_shadow_128px.png</File>
-    <File>/home/yoshino/Documents/Kyo/Content/Images/128/square gray light _png_shadow_128px.png</File>
-    <File>/home/yoshino/Documents/Kyo/Content/Images/128/w_bishop_png_shadow_128px.png</File>
-    <File>/home/yoshino/Documents/Kyo/Content/Images/128/w_king_png_shadow_128px.png</File>
-    <File>/home/yoshino/Documents/Kyo/Content/Images/128/w_knight_png_shadow_128px.png</File>
-    <File>/home/yoshino/Documents/Kyo/Content/Images/128/w_pawn_png_shadow_128px.png</File>
-    <File>/home/yoshino/Documents/Kyo/Content/Images/128/w_queen_png_shadow_128px.png</File>
-    <File>/home/yoshino/Documents/Kyo/Content/Images/128/w_rook_png_shadow_128px.png</File>
-    <File>/home/yoshino/Documents/Kyo/Content/Images/256/b_bishop_png_shadow_256px.png</File>
-    <File>/home/yoshino/Documents/Kyo/Content/Images/256/b_king_png_shadow_256px.png</File>
-    <File>/home/yoshino/Documents/Kyo/Content/Images/256/b_knight_png_shadow_256px.png</File>
-    <File>/home/yoshino/Documents/Kyo/Content/Images/256/b_pawn_png_shadow_256px.png</File>
-    <File>/home/yoshino/Documents/Kyo/Content/Images/256/b_queen_png_shadow_256px.png</File>
-    <File>/home/yoshino/Documents/Kyo/Content/Images/256/b_rook_png_shadow_256px.png</File>
-    <File>/home/yoshino/Documents/Kyo/Content/Images/256/square brown dark_png_shadow_256px.png</File>
-    <File>/home/yoshino/Documents/Kyo/Content/Images/256/square brown light_png_shadow_256px.png</File>
-    <File>/home/yoshino/Documents/Kyo/Content/Images/256/square gray dark _png_shadow_256px.png</File>
-    <File>/home/yoshino/Documents/Kyo/Content/Images/256/square gray light _png_shadow_256px.png</File>
-    <File>/home/yoshino/Documents/Kyo/Content/Images/256/w_bishop_png_shadow_256px.png</File>
-    <File>/home/yoshino/Documents/Kyo/Content/Images/256/w_king_png_shadow_256px.png</File>
-    <File>/home/yoshino/Documents/Kyo/Content/Images/256/w_knight_png_shadow_256px.png</File>
-    <File>/home/yoshino/Documents/Kyo/Content/Images/256/w_pawn_png_shadow_256px.png</File>
-    <File>/home/yoshino/Documents/Kyo/Content/Images/256/w_queen_png_shadow_256px.png</File>
-    <File>/home/yoshino/Documents/Kyo/Content/Images/256/w_rook_png_shadow_256px.png</File>
+    <File>/home/yoshino/Téléchargements/config/Content/Fonts/Debug28.spritefont</File>
+    <File>/home/yoshino/Téléchargements/config/Content/Images/128/b_bishop_png_shadow_128px.png</File>
+    <File>/home/yoshino/Téléchargements/config/Content/Images/128/b_king_png_shadow_128px.png</File>
+    <File>/home/yoshino/Téléchargements/config/Content/Images/128/b_knight_png_shadow_128px.png</File>
+    <File>/home/yoshino/Téléchargements/config/Content/Images/128/b_pawn_png_shadow_128px.png</File>
+    <File>/home/yoshino/Téléchargements/config/Content/Images/128/b_queen_png_shadow_128px.png</File>
+    <File>/home/yoshino/Téléchargements/config/Content/Images/128/b_rook_png_shadow_128px.png</File>
+    <File>/home/yoshino/Téléchargements/config/Content/Images/128/square brown dark_png_shadow_128px.png</File>
+    <File>/home/yoshino/Téléchargements/config/Content/Images/128/square brown light_png_shadow_128px.png</File>
+    <File>/home/yoshino/Téléchargements/config/Content/Images/128/square gray dark _png_shadow_128px.png</File>
+    <File>/home/yoshino/Téléchargements/config/Content/Images/128/square gray light _png_shadow_128px.png</File>
+    <File>/home/yoshino/Téléchargements/config/Content/Images/128/w_bishop_png_shadow_128px.png</File>
+    <File>/home/yoshino/Téléchargements/config/Content/Images/128/w_king_png_shadow_128px.png</File>
+    <File>/home/yoshino/Téléchargements/config/Content/Images/128/w_knight_png_shadow_128px.png</File>
+    <File>/home/yoshino/Téléchargements/config/Content/Images/128/w_pawn_png_shadow_128px.png</File>
+    <File>/home/yoshino/Téléchargements/config/Content/Images/128/w_queen_png_shadow_128px.png</File>
+    <File>/home/yoshino/Téléchargements/config/Content/Images/128/w_rook_png_shadow_128px.png</File>
+    <File>/home/yoshino/Téléchargements/config/Content/Images/256/b_bishop_png_shadow_256px.png</File>
+    <File>/home/yoshino/Téléchargements/config/Content/Images/256/b_king_png_shadow_256px.png</File>
+    <File>/home/yoshino/Téléchargements/config/Content/Images/256/b_knight_png_shadow_256px.png</File>
+    <File>/home/yoshino/Téléchargements/config/Content/Images/256/b_pawn_png_shadow_256px.png</File>
+    <File>/home/yoshino/Téléchargements/config/Content/Images/256/b_queen_png_shadow_256px.png</File>
+    <File>/home/yoshino/Téléchargements/config/Content/Images/256/b_rook_png_shadow_256px.png</File>
+    <File>/home/yoshino/Téléchargements/config/Content/Images/256/square brown dark_png_shadow_256px.png</File>
+    <File>/home/yoshino/Téléchargements/config/Content/Images/256/square brown light_png_shadow_256px.png</File>
+    <File>/home/yoshino/Téléchargements/config/Content/Images/256/square gray dark _png_shadow_256px.png</File>
+    <File>/home/yoshino/Téléchargements/config/Content/Images/256/square gray light _png_shadow_256px.png</File>
+    <File>/home/yoshino/Téléchargements/config/Content/Images/256/w_bishop_png_shadow_256px.png</File>
+    <File>/home/yoshino/Téléchargements/config/Content/Images/256/w_king_png_shadow_256px.png</File>
+    <File>/home/yoshino/Téléchargements/config/Content/Images/256/w_knight_png_shadow_256px.png</File>
+    <File>/home/yoshino/Téléchargements/config/Content/Images/256/w_pawn_png_shadow_256px.png</File>
+    <File>/home/yoshino/Téléchargements/config/Content/Images/256/w_queen_png_shadow_256px.png</File>
+    <File>/home/yoshino/Téléchargements/config/Content/Images/256/w_rook_png_shadow_256px.png</File>
+    <File>/home/yoshino/Téléchargements/config/Content/Q3sYRb-circle-clipart-photos.png</File>
   </SourceFiles>
   <DestFiles>
     <File xsi:nil="true" />
@@ -72,5 +73,6 @@
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
+    <File>circle.png</File>
   </DestFiles>
 </SourceFileCollection>

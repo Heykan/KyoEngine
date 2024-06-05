@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>/home/yoshino/Documents/Kyo/Content/Images/128/w_queen_png_shadow_128px.png</SourceFile>
-  <SourceTime>2018-05-21T21:45:40+02:00</SourceTime>
-  <DestFile>/home/yoshino/Documents/Kyo/Content/bin/DesktopGL/Content/Images/128/w_queen_png_shadow_128px.xnb</DestFile>
-  <DestTime>2024-01-27T00:10:51.2318613+01:00</DestTime>
+  <SourceFile>/home/yoshino/Téléchargements/config/Content/Images/128/w_queen_png_shadow_128px.png</SourceFile>
+  <SourceTime>2024-01-28T20:39:06+01:00</SourceTime>
+  <DestFile>/home/yoshino/Téléchargements/config/Content/bin/DesktopGL/Content/Images/128/w_queen_png_shadow_128px.xnb</DestFile>
+  <DestTime>2024-06-04T16:37:31.3004783+02:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2022-07-26T13:44:56+02:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

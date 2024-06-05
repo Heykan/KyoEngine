@@ -11,9 +11,13 @@ public static class InputManager
     private static MouseState _mouseState;
     private static MouseState _oldMouseState;
 
+    public static Point MousePosition {get; private set;}
+    public static bool LeftButtonPressed {get; private set;} = false;
+
     public static void BeginUpdate()
     {
         _oldMouseState = Mouse.GetState();
+        LeftButtonPressed = false;
     }
 
     public static void EndUpdate()
@@ -23,8 +27,10 @@ public static class InputManager
 
     public static void Update(GameTime gameTime)
     {
+        MousePosition = _mouseState.Position;
         if (_mouseState.LeftButton == ButtonState.Released && _oldMouseState.LeftButton == ButtonState.Pressed)
         {
+            LeftButtonPressed = true;
             if (MouseLeftButtonPressed != null)
                 MouseLeftButtonPressed();
         }

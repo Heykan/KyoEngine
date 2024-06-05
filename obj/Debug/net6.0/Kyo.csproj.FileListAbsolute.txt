@@ -58,3 +58,124 @@
 /home/yoshino/Documents/Kyo/bin/Debug/net6.0/Content/Fonts/Debug28.xnb
 /home/yoshino/Documents/Kyo/bin/Debug/net6.0/Content/Fonts/m6x11.ttf
 /home/yoshino/Documents/Kyo/obj/Debug/net6.0/Kyo.sourcelink.json
+C:/Users/33651/Documents/Prépa/TIPE/Kyo/obj/Debug/net6.0/Kyo.csproj.AssemblyReference.cache
+C:/Users/33651/Documents/Prépa/TIPE/Kyo/obj/Debug/net6.0/Kyo.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/33651/Documents/Prépa/TIPE/Kyo/obj/Debug/net6.0/Kyo.AssemblyInfoInputs.cache
+C:/Users/33651/Documents/Prépa/TIPE/Kyo/obj/Debug/net6.0/Kyo.AssemblyInfo.cs
+C:/Users/33651/Documents/Prépa/TIPE/Kyo/obj/Debug/net6.0/Kyo.csproj.CoreCompileInputs.cache
+C:/Users/33651/Documents/Prépa/TIPE/Kyo/obj/Debug/net6.0/Kyo.sourcelink.json
+C:/Users/33651/Documents/Prépa/TIPE/Kyo/obj/Debug/net6.0/Kyo.dll
+C:/Users/33651/Documents/Prépa/TIPE/Kyo/obj/Debug/net6.0/refint/Kyo.dll
+C:/Users/33651/Documents/Prépa/TIPE/Kyo/obj/Debug/net6.0/Kyo.pdb
+C:/Users/33651/Documents/Prépa/TIPE/Kyo/bin/Debug/net6.0/Content/Fonts/m6x11.ttf
+C:/Users/33651/Documents/Prépa/TIPE/Kyo/bin/Debug/net6.0/Content/Fonts/Debug28.xnb
+C:/Users/33651/Documents/Prépa/TIPE/Kyo/bin/Debug/net6.0/Content/Images/128/b_bishop_png_shadow_128px.xnb
+C:/Users/33651/Documents/Prépa/TIPE/Kyo/bin/Debug/net6.0/Content/Images/128/b_king_png_shadow_128px.xnb
+C:/Users/33651/Documents/Prépa/TIPE/Kyo/bin/Debug/net6.0/Content/Images/128/b_knight_png_shadow_128px.xnb
+C:/Users/33651/Documents/Prépa/TIPE/Kyo/bin/Debug/net6.0/Content/Images/128/b_pawn_png_shadow_128px.xnb
+C:/Users/33651/Documents/Prépa/TIPE/Kyo/bin/Debug/net6.0/Content/Images/128/b_queen_png_shadow_128px.xnb
+C:/Users/33651/Documents/Prépa/TIPE/Kyo/bin/Debug/net6.0/Content/Images/128/b_rook_png_shadow_128px.xnb
+C:/Users/33651/Documents/Prépa/TIPE/Kyo/bin/Debug/net6.0/Content/Images/128/square brown dark_png_shadow_128px.xnb
+C:/Users/33651/Documents/Prépa/TIPE/Kyo/bin/Debug/net6.0/Content/Images/128/square brown light_png_shadow_128px.xnb
+C:/Users/33651/Documents/Prépa/TIPE/Kyo/bin/Debug/net6.0/Content/Images/128/square gray dark _png_shadow_128px.xnb
+C:/Users/33651/Documents/Prépa/TIPE/Kyo/bin/Debug/net6.0/Content/Images/128/square gray light _png_shadow_128px.xnb
+C:/Users/33651/Documents/Prépa/TIPE/Kyo/bin/Debug/net6.0/Content/Images/128/w_bishop_png_shadow_128px.xnb
+C:/Users/33651/Documents/Prépa/TIPE/Kyo/bin/Debug/net6.0/Content/Images/128/w_king_png_shadow_128px.xnb
+C:/Users/33651/Documents/Prépa/TIPE/Kyo/bin/Debug/net6.0/Content/Images/128/w_knight_png_shadow_128px.xnb
+C:/Users/33651/Documents/Prépa/TIPE/Kyo/bin/Debug/net6.0/Content/Images/128/w_pawn_png_shadow_128px.xnb
+C:/Users/33651/Documents/Prépa/TIPE/Kyo/bin/Debug/net6.0/Content/Images/128/w_queen_png_shadow_128px.xnb
+C:/Users/33651/Documents/Prépa/TIPE/Kyo/bin/Debug/net6.0/Content/Images/128/w_rook_png_shadow_128px.xnb
+C:/Users/33651/Documents/Prépa/TIPE/Kyo/bin/Debug/net6.0/Content/Images/256/b_bishop_png_shadow_256px.xnb
+C:/Users/33651/Documents/Prépa/TIPE/Kyo/bin/Debug/net6.0/Content/Images/256/b_king_png_shadow_256px.xnb
+C:/Users/33651/Documents/Prépa/TIPE/Kyo/bin/Debug/net6.0/Content/Images/256/b_knight_png_shadow_256px.xnb
+C:/Users/33651/Documents/Prépa/TIPE/Kyo/bin/Debug/net6.0/Content/Images/256/b_pawn_png_shadow_256px.xnb
+C:/Users/33651/Documents/Prépa/TIPE/Kyo/bin/Debug/net6.0/Content/Images/256/b_queen_png_shadow_256px.xnb
+C:/Users/33651/Documents/Prépa/TIPE/Kyo/bin/Debug/net6.0/Content/Images/256/b_rook_png_shadow_256px.xnb
+C:/Users/33651/Documents/Prépa/TIPE/Kyo/bin/Debug/net6.0/Content/Images/256/square brown dark_png_shadow_256px.xnb
+C:/Users/33651/Documents/Prépa/TIPE/Kyo/bin/Debug/net6.0/Content/Images/256/square brown light_png_shadow_256px.xnb
+C:/Users/33651/Documents/Prépa/TIPE/Kyo/bin/Debug/net6.0/Content/Images/256/square gray dark _png_shadow_256px.xnb
+C:/Users/33651/Documents/Prépa/TIPE/Kyo/bin/Debug/net6.0/Content/Images/256/square gray light _png_shadow_256px.xnb
+C:/Users/33651/Documents/Prépa/TIPE/Kyo/bin/Debug/net6.0/Content/Images/256/w_bishop_png_shadow_256px.xnb
+C:/Users/33651/Documents/Prépa/TIPE/Kyo/bin/Debug/net6.0/Content/Images/256/w_king_png_shadow_256px.xnb
+C:/Users/33651/Documents/Prépa/TIPE/Kyo/bin/Debug/net6.0/Content/Images/256/w_knight_png_shadow_256px.xnb
+C:/Users/33651/Documents/Prépa/TIPE/Kyo/bin/Debug/net6.0/Content/Images/256/w_pawn_png_shadow_256px.xnb
+C:/Users/33651/Documents/Prépa/TIPE/Kyo/bin/Debug/net6.0/Content/Images/256/w_queen_png_shadow_256px.xnb
+C:/Users/33651/Documents/Prépa/TIPE/Kyo/bin/Debug/net6.0/Content/Images/256/w_rook_png_shadow_256px.xnb
+C:/Users/33651/Documents/Prépa/TIPE/Kyo/bin/Debug/net6.0/Kyo.exe
+C:/Users/33651/Documents/Prépa/TIPE/Kyo/bin/Debug/net6.0/Kyo.deps.json
+C:/Users/33651/Documents/Prépa/TIPE/Kyo/bin/Debug/net6.0/Kyo.runtimeconfig.json
+C:/Users/33651/Documents/Prépa/TIPE/Kyo/bin/Debug/net6.0/Kyo.dll
+C:/Users/33651/Documents/Prépa/TIPE/Kyo/bin/Debug/net6.0/Kyo.pdb
+C:/Users/33651/Documents/Prépa/TIPE/Kyo/bin/Debug/net6.0/MonoGame.Framework.dll
+C:/Users/33651/Documents/Prépa/TIPE/Kyo/bin/Debug/net6.0/runtimes/linux-x64/native/libSDL2-2.0.so.0
+C:/Users/33651/Documents/Prépa/TIPE/Kyo/bin/Debug/net6.0/runtimes/linux-x64/native/libopenal.so.1
+C:/Users/33651/Documents/Prépa/TIPE/Kyo/bin/Debug/net6.0/runtimes/osx/native/libSDL2.dylib
+C:/Users/33651/Documents/Prépa/TIPE/Kyo/bin/Debug/net6.0/runtimes/osx/native/libopenal.1.dylib
+C:/Users/33651/Documents/Prépa/TIPE/Kyo/bin/Debug/net6.0/runtimes/win-x64/native/SDL2.dll
+C:/Users/33651/Documents/Prépa/TIPE/Kyo/bin/Debug/net6.0/runtimes/win-x64/native/soft_oal.dll
+C:/Users/33651/Documents/Prépa/TIPE/Kyo/bin/Debug/net6.0/runtimes/win-x86/native/SDL2.dll
+C:/Users/33651/Documents/Prépa/TIPE/Kyo/bin/Debug/net6.0/runtimes/win-x86/native/soft_oal.dll
+C:/Users/33651/Documents/Prépa/TIPE/Kyo/obj/Debug/net6.0/Kyo.csproj.Up2Date
+C:/Users/33651/Documents/Prépa/TIPE/Kyo/obj/Debug/net6.0/Kyo.genruntimeconfig.cache
+C:/Users/33651/Documents/Prépa/TIPE/Kyo/obj/Debug/net6.0/ref/Kyo.dll
+/home/yoshino/Téléchargements/config/bin/Debug/net6.0/Content/Fonts/m6x11.ttf
+/home/yoshino/Téléchargements/config/bin/Debug/net6.0/Content/Fonts/Debug28.xnb
+/home/yoshino/Téléchargements/config/bin/Debug/net6.0/Content/Images/128/b_bishop_png_shadow_128px.xnb
+/home/yoshino/Téléchargements/config/bin/Debug/net6.0/Content/Images/128/b_king_png_shadow_128px.xnb
+/home/yoshino/Téléchargements/config/bin/Debug/net6.0/Content/Images/128/b_knight_png_shadow_128px.xnb
+/home/yoshino/Téléchargements/config/bin/Debug/net6.0/Content/Images/128/b_pawn_png_shadow_128px.xnb
+/home/yoshino/Téléchargements/config/bin/Debug/net6.0/Content/Images/128/b_queen_png_shadow_128px.xnb
+/home/yoshino/Téléchargements/config/bin/Debug/net6.0/Content/Images/128/b_rook_png_shadow_128px.xnb
+/home/yoshino/Téléchargements/config/bin/Debug/net6.0/Content/Images/128/square brown dark_png_shadow_128px.xnb
+/home/yoshino/Téléchargements/config/bin/Debug/net6.0/Content/Images/128/square brown light_png_shadow_128px.xnb
+/home/yoshino/Téléchargements/config/bin/Debug/net6.0/Content/Images/128/square gray dark _png_shadow_128px.xnb
+/home/yoshino/Téléchargements/config/bin/Debug/net6.0/Content/Images/128/square gray light _png_shadow_128px.xnb
+/home/yoshino/Téléchargements/config/bin/Debug/net6.0/Content/Images/128/w_bishop_png_shadow_128px.xnb
+/home/yoshino/Téléchargements/config/bin/Debug/net6.0/Content/Images/128/w_king_png_shadow_128px.xnb
+/home/yoshino/Téléchargements/config/bin/Debug/net6.0/Content/Images/128/w_knight_png_shadow_128px.xnb
+/home/yoshino/Téléchargements/config/bin/Debug/net6.0/Content/Images/128/w_pawn_png_shadow_128px.xnb
+/home/yoshino/Téléchargements/config/bin/Debug/net6.0/Content/Images/128/w_queen_png_shadow_128px.xnb
+/home/yoshino/Téléchargements/config/bin/Debug/net6.0/Content/Images/128/w_rook_png_shadow_128px.xnb
+/home/yoshino/Téléchargements/config/bin/Debug/net6.0/Content/Images/256/b_bishop_png_shadow_256px.xnb
+/home/yoshino/Téléchargements/config/bin/Debug/net6.0/Content/Images/256/b_king_png_shadow_256px.xnb
+/home/yoshino/Téléchargements/config/bin/Debug/net6.0/Content/Images/256/b_knight_png_shadow_256px.xnb
+/home/yoshino/Téléchargements/config/bin/Debug/net6.0/Content/Images/256/b_pawn_png_shadow_256px.xnb
+/home/yoshino/Téléchargements/config/bin/Debug/net6.0/Content/Images/256/b_queen_png_shadow_256px.xnb
+/home/yoshino/Téléchargements/config/bin/Debug/net6.0/Content/Images/256/b_rook_png_shadow_256px.xnb
+/home/yoshino/Téléchargements/config/bin/Debug/net6.0/Content/Images/256/square brown dark_png_shadow_256px.xnb
+/home/yoshino/Téléchargements/config/bin/Debug/net6.0/Content/Images/256/square brown light_png_shadow_256px.xnb
+/home/yoshino/Téléchargements/config/bin/Debug/net6.0/Content/Images/256/square gray dark _png_shadow_256px.xnb
+/home/yoshino/Téléchargements/config/bin/Debug/net6.0/Content/Images/256/square gray light _png_shadow_256px.xnb
+/home/yoshino/Téléchargements/config/bin/Debug/net6.0/Content/Images/256/w_bishop_png_shadow_256px.xnb
+/home/yoshino/Téléchargements/config/bin/Debug/net6.0/Content/Images/256/w_king_png_shadow_256px.xnb
+/home/yoshino/Téléchargements/config/bin/Debug/net6.0/Content/Images/256/w_knight_png_shadow_256px.xnb
+/home/yoshino/Téléchargements/config/bin/Debug/net6.0/Content/Images/256/w_pawn_png_shadow_256px.xnb
+/home/yoshino/Téléchargements/config/bin/Debug/net6.0/Content/Images/256/w_queen_png_shadow_256px.xnb
+/home/yoshino/Téléchargements/config/bin/Debug/net6.0/Content/Images/256/w_rook_png_shadow_256px.xnb
+/home/yoshino/Téléchargements/config/bin/Debug/net6.0/Kyo
+/home/yoshino/Téléchargements/config/bin/Debug/net6.0/Kyo.deps.json
+/home/yoshino/Téléchargements/config/bin/Debug/net6.0/Kyo.runtimeconfig.json
+/home/yoshino/Téléchargements/config/bin/Debug/net6.0/Kyo.dll
+/home/yoshino/Téléchargements/config/bin/Debug/net6.0/Kyo.pdb
+/home/yoshino/Téléchargements/config/bin/Debug/net6.0/MonoGame.Framework.dll
+/home/yoshino/Téléchargements/config/bin/Debug/net6.0/runtimes/linux-x64/native/libSDL2-2.0.so.0
+/home/yoshino/Téléchargements/config/bin/Debug/net6.0/runtimes/linux-x64/native/libopenal.so.1
+/home/yoshino/Téléchargements/config/bin/Debug/net6.0/runtimes/osx/native/libSDL2.dylib
+/home/yoshino/Téléchargements/config/bin/Debug/net6.0/runtimes/osx/native/libopenal.1.dylib
+/home/yoshino/Téléchargements/config/bin/Debug/net6.0/runtimes/win-x64/native/SDL2.dll
+/home/yoshino/Téléchargements/config/bin/Debug/net6.0/runtimes/win-x64/native/soft_oal.dll
+/home/yoshino/Téléchargements/config/bin/Debug/net6.0/runtimes/win-x86/native/SDL2.dll
+/home/yoshino/Téléchargements/config/bin/Debug/net6.0/runtimes/win-x86/native/soft_oal.dll
+/home/yoshino/Téléchargements/config/obj/Debug/net6.0/Kyo.csproj.AssemblyReference.cache
+/home/yoshino/Téléchargements/config/obj/Debug/net6.0/Kyo.GeneratedMSBuildEditorConfig.editorconfig
+/home/yoshino/Téléchargements/config/obj/Debug/net6.0/Kyo.AssemblyInfoInputs.cache
+/home/yoshino/Téléchargements/config/obj/Debug/net6.0/Kyo.AssemblyInfo.cs
+/home/yoshino/Téléchargements/config/obj/Debug/net6.0/Kyo.csproj.CoreCompileInputs.cache
+/home/yoshino/Téléchargements/config/obj/Debug/net6.0/Kyo.sourcelink.json
+/home/yoshino/Téléchargements/config/obj/Debug/net6.0/Kyo.csproj.CopyComplete
+/home/yoshino/Téléchargements/config/obj/Debug/net6.0/Kyo.dll
+/home/yoshino/Téléchargements/config/obj/Debug/net6.0/refint/Kyo.dll
+/home/yoshino/Téléchargements/config/obj/Debug/net6.0/Kyo.pdb
+/home/yoshino/Téléchargements/config/obj/Debug/net6.0/Kyo.genruntimeconfig.cache
+/home/yoshino/Téléchargements/config/obj/Debug/net6.0/ref/Kyo.dll
+/home/yoshino/Téléchargements/config/bin/Debug/net6.0/Content/circle.xnb

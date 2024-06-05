@@ -407,3 +407,15 @@
 /processorParam:TextureFormat=Color
 /build:Images/256/w_rook_png_shadow_256px.png
 
+#begin Q3sYRb-circle-clipart-photos.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Q3sYRb-circle-clipart-photos.png;circle.png
+

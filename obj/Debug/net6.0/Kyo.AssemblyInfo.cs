@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Kyo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+906efd5c8ad1ec7fbca6d561e526958a91f371c9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+041cee52a9d2b4db68d2fb4bd9768dd3ab97a08b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Kyo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Kyo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

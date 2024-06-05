@@ -1,6 +1,6 @@
 ﻿using System;
-using Kyo.Core;
 using Kyo.Manager;
+using Kyo.Screen;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
@@ -11,8 +11,6 @@ public class Game1 : Game
 {
     private GraphicsDeviceManager _graphics;
     private SpriteBatch _spriteBatch;
-
-    private Board _board;
 
     public Game1()
     {
@@ -25,14 +23,13 @@ public class Game1 : Game
 
     protected override void Initialize()
     {
-        ScreenManager.Width = 800;
-        ScreenManager.Height = 800;
+        ScreenManager.Width = 1024;
+        ScreenManager.Height = 1024;
 
-        _graphics.PreferredBackBufferWidth = 800;
-        _graphics.PreferredBackBufferHeight = 800;
+        _graphics.PreferredBackBufferWidth = ScreenManager.Width;
+        _graphics.PreferredBackBufferHeight = ScreenManager.Height;
         _graphics.ApplyChanges();
 
-        _board = new Board();
 
         base.Initialize();
     }
@@ -40,7 +37,10 @@ public class Game1 : Game
     protected override async void LoadContent()
     {
         _spriteBatch = new SpriteBatch(GraphicsDevice);
-        await _board.Load(Content);
+
+        await ContentService.Instance.LoadContent(Content, GraphicsDevice);
+
+        ScreenManager.Initialize(new GameScreen());
     }
 
     protected override void Update(GameTime gameTime)
@@ -50,8 +50,7 @@ public class Game1 : Game
 
         InputManager.BeginUpdate();
         InputManager.Update(gameTime);
-        _board.Update(gameTime);
-
+        ScreenManager.Update(gameTime);
         InputManager.EndUpdate();
 
         base.Update(gameTime);
@@ -61,11 +60,7 @@ public class Game1 : Game
     {
         GraphicsDevice.Clear(Color.Black);
 
-        _spriteBatch.Begin();
-
-        _board.Draw(gameTime, _spriteBatch);
-
-        _spriteBatch.End();
+        ScreenManager.Draw(gameTime, _spriteBatch);
 
         base.Draw(gameTime);
     }
