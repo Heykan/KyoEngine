@@ -70,7 +70,7 @@ public class Button {
         sprite.Draw(spriteBatch);
     }
 
-    protected virtual void OnClick(EventArgs e)
+    public virtual void OnClick(EventArgs e)
         {
             EventHandler handler = Click;
             handler?.Invoke(this, e);

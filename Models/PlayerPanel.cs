@@ -6,6 +6,7 @@ namespace Kyo.Models;
 
 public class PlayerPanel {
     private List<Piece> _panel;
+    public List<Piece> Panel => _panel;
 
     public PlayerPanel() {
         _panel = new List<Piece>();
@@ -95,5 +96,11 @@ public class PlayerPanel {
     public void Draw(SpriteBatch spriteBatch) {
         foreach(var piece in _panel)
             piece.Draw(spriteBatch);
+    }
+
+    public void DrawLegal(SpriteBatch spriteBatch) {
+        if (GetMarked().MarkedState == PieceState.Marked) {
+            GetMarked().DrawLegalMoves(spriteBatch);
+        }
     }
 }

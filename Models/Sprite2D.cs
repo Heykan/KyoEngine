@@ -17,6 +17,14 @@ public class Sprite2D {
         }
     }
 
+    private float _layer;
+    public float Layer {
+        get => _layer;
+        set {
+            _layer = value;
+        }
+    }
+
     private Vector2 _location;
     public Vector2 Location {
         get => _location;
@@ -55,12 +63,13 @@ public class Sprite2D {
         this.Color = Color.White;
     }
 
-    public Sprite2D(Texture2D texture, Rectangle rectangle, Color color)
+    public Sprite2D(Texture2D texture, Rectangle rectangle, Color color, float layer = 0)
     {
         this.Texture = texture;
         this._location = Vector2.Zero;
         this.Bounds = rectangle;
         this.Color = color;
+        this.Layer = layer;
     }
 
     public void Draw(SpriteBatch spriteBatch)
@@ -69,7 +78,7 @@ public class Sprite2D {
         {
             Vector2 origin = Texture.Bounds.Center.ToVector2();
             Rectangle destRect = new Rectangle(_bounds.X + _bounds.Width / 2, _bounds.Y + _bounds.Height / 2, _bounds.Width, _bounds.Height);
-            spriteBatch.Draw(Texture, destRect, null, Color, Angle, origin, SpriteEffects.None, 0f);
+            spriteBatch.Draw(Texture, destRect, null, Color, Angle, origin, SpriteEffects.None, Layer);
         }
     }
 

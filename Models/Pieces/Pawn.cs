@@ -30,6 +30,7 @@ public class Pawn : Piece
                     AddLegalMove(new Vector2(Position.X, 3));
             }
         }
+
         // Mouvement normal
         if (ChessColor == ChessColor.White 
         && board.IsEmpty((int)Position.X, (int)Position.Y - 1))
@@ -43,6 +44,7 @@ public class Pawn : Piece
             if (board.IsLegalMove(this, new Vector2((int)Position.X, (int)Position.Y + 1)))
                 AddLegalMove(new Vector2((int)Position.X, (int)Position.Y + 1));
         }
+
         // Manger
         if ((int)Position.X != 0)
         {
@@ -86,6 +88,7 @@ public class Pawn : Piece
                 }
             }
         }
+
         // En passant
         if ((int)Position.X != 0)
         {

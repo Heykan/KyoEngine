@@ -80,9 +80,6 @@ public abstract class Piece : Button {
 
     public override void Draw(SpriteBatch spriteBatch)
     {
-        if (this.MarkedState == PieceState.Marked) {
-            DrawLegalMoves(spriteBatch);
-        }
         base.Draw(spriteBatch);
     }
 
@@ -94,11 +91,16 @@ public abstract class Piece : Button {
         }
     }
 
-    public void Move(Vector2 position) {
+    public virtual void Move(Vector2 position) {
         NumberOfMoves++;
         board.Move(this, position);
         Bounds = new Rectangle((int)position.X * (int)Constants.Case.X, (int)position.Y * (int)Constants.Case.Y, (int)Constants.Case.X, (int)Constants.Case.Y);
         Center(new Rectangle((int)position.X * (int)Constants.Case.X, (int)position.Y * (int)Constants.Case.Y, (int)Constants.Case.X, (int)Constants.Case.Y));
+    }
+
+    protected void AddLegalMove(int x, int y)
+    {
+        AddLegalMove(new Vector2(x, y));
     }
 
     protected void AddLegalMove(Vector2 position) {
